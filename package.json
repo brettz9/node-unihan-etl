@@ -1,0 +1,35 @@
+{
+  "name": "node-unihan-etl",
+  "version": "0.1.0",
+  "description": "NPM/Node wrapper for unihan-etl",
+  "main": "src/index.js",
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  },
+  "scripts": {
+    "install-unihan-etl-source": "cd unihan-etl && ./setup.py install",
+    "install-unihan-etl": "cd unihan-etl && pip install --user unihan-etl",
+    "install-unihan-etl-plus-yml": "npm run install-unihan-etl && pip install --user pyyaml",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brettz9/unihan-etl.git"
+  },
+  "keywords": [
+    "unihan",
+    "unihan-etl"
+  ],
+  "author": "Brett Zamir",
+  "contributors": [],
+  "license": "MIT",
+  "dependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/brettz9/unihan-etl/issues"
+  },
+  "homepage": "https://github.com/brettz9/unihan-etl#readme"
+}

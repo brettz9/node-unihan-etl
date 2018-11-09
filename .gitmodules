@@ -1,0 +1,3 @@
+[submodule "unihan-etl"]
+	path = unihan-etl
+	url = https://github.com/cihai/unihan-etl
