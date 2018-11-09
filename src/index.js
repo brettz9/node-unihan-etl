@@ -23,11 +23,11 @@ async function build ({
     ...(destinationPath ? ['--destination', destinationPath] : []),
     ...(fields ? [
       '--fields',
-      Array.isArray(fields) ? fields.join(' ') : fields
+      ...(Array.isArray(fields) ? fields : [fields])
     ] : []),
     ...(inputFiles ? [
       '--input-files',
-      Array.isArray(inputFiles) ? inputFiles.join(' ') : inputFiles
+      ...(Array.isArray(inputFiles) ? inputFiles : [inputFiles])
     ] : []),
     ...(source ? ['--source', source] : []),
     ...(zipPath ? ['--zip-path', zipPath] : []),

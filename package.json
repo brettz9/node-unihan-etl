@@ -1,6 +1,6 @@
 {
   "name": "node-unihan-etl",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "NPM/Node wrapper for unihan-etl",
   "main": "src/index.js",
   "directories": {
