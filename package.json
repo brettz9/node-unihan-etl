@@ -11,7 +11,7 @@
     "install-unihan-etl-source": "cd unihan-etl && ./setup.py install",
     "install-unihan-etl": "cd unihan-etl && pip install --user unihan-etl",
     "install-unihan-etl-plus-yml": "npm run install-unihan-etl && pip install --user pyyaml",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/test.js"
   },
   "repository": {
     "type": "git",
